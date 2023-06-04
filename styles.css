@@ -51,7 +51,7 @@ body {
 }
 
 .slogan_h5 {
-    padding-top: 0;
+    padding: 15px;
     margin: 0;
     letter-spacing: .1rem;
     text-align: center;
@@ -68,7 +68,7 @@ body {
     background-color: whitesmoke;
     padding: 10px;
     min-width: 200px;
-    z-index: auto;
+    z-index: 1000;
     list-style: none;
     margin-top: auto;
     overflow-y: auto;
@@ -108,7 +108,7 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 #navbar li {
